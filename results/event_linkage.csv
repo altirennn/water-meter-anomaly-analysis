@@ -1,0 +1,12 @@
+﻿metric;value;detail
+raw_event_rows;34009.0;All event rows as supplied
+duplicate_event_rows;23223.0;Duplicate anon_id/date/event rows removed for comparisons
+unique_magnet_meter_dates;10164.0;Across 671 meters
+magnet_adjacent_daily_deltas;4611.0;"Zero=1612; negative=0"
+magnet_zero_share;0.3495987855129039;Exact magnet dates with valid adjacent-day deltas
+non_magnet_zero_share_same_meters;0.2838876927808779;Other adjacent-day deltas from meters with magnet events
+paired_meters_min_3_event_10_control;266.0;"Mean zero share event=0.3392; control=0.4041; event higher=70; event lower=146"
+negative_deltas_within_7d_of_magnet;3.0;Of 190 negative adjacent-day intervals
+event_type_Холл;0.0;"negative adjacent-day deltas on deduplicated event dates; rows=270, unique_dates=269, matched_deltas=72, zero=1"
+event_type_магнит;0.0;"negative adjacent-day deltas on deduplicated event dates; rows=33365, unique_dates=10164, matched_deltas=4611, zero=1612"
+event_type_сброс;7.0;"negative adjacent-day deltas on deduplicated event dates; rows=374, unique_dates=353, matched_deltas=47, zero=14"

@@ -1,0 +1,7 @@
+﻿category;criterion;intervals;meters;example_ids
+negative_consumption;Adjacent-day change < -0.0005 m3/day;190;79;2491162, 8908023, 2159987, 7891133, 8190741, 1423304, 7293232, 5704914
+spike;Daily use >= 1.0 m3 and >= 5x meter median plausible positive daily use;917;210;8908023, 2491162, 8953379, 8973572, 9435441, 8305637, 2159987, 5317621
+physically_impossible;"Daily use above manufacturer daily limit: 37.5 m3 for DN15; 62.5 m3 for DN20; unknown model screened at DN15 limit";305;55;2491162, 8908023, 2159987, 7891133, 8973572, 5359103, 2030325, 4964924
+leak_candidate;>0 plausible m3/day on every one of >= 30 consecutive calendar days;device streaks;1168;1968874, 7496751, 2931056, 6554606, 1282534, 7619242, 2148838, 6347187
+long_zero_with_packets;Unchanged cumulative reading for >= 30 consecutive calendar days with packets_per_day > 0;device streaks;694;9686922, 7558835, 9354769, 5374718, 1547698, 4954627, 1201898, 6323493
+step_change;"First vs second half mean changes >= 3x and >= 0.1 m3/day; >=30 valid adjacent days in each half; denominator floor 0.02";device comparison;89;3761383, 2030325, 7826125, 7010638, 9254821, 7324653, 3036541, 1045488
